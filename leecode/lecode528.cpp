@@ -56,18 +56,12 @@ while(len--){
     while(left < right){
         int mid = left + (right - left)/2;
         
-        if(perSum[mid] > r){
+        if(perSum[mid] >= r){
             right = mid;
         }
         else if(perSum[mid] < r){
             left = mid + 1;
         }
-        else{
-            left = mid;
-            break;
-        }
-
-
     }//left == right
 
     cout<<left<<endl;
