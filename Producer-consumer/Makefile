@@ -11,3 +11,6 @@ easy_threadpool.o: BlockQ.o BlockQ.h easy_threadpool.h easy_threadpool.c
 main.o: BlockQ.o BlockQ.h easy_threadpool.o easy_threadpool.h
 	gcc -c main.c -Wall -g -pthread
 
+clean:
+	rm -rf *.o
+

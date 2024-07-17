@@ -23,5 +23,7 @@ int main(void){
      }
      printf("the threadpool end! \n");
 
+     thread_destory(pool);
+     pool = NULL;
     return 0;
 }
