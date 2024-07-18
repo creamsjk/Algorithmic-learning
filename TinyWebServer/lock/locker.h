@@ -95,10 +95,10 @@ public:
         return res == 0;
     }
 
-    bool timewait(pthread_mutex_t *mutex, struct timespec *t){
+    bool timewait(pthread_mutex_t *mutex, struct timespec t){
         int res = 0;
         //pthread_mutex_lock(mutex);
-        res = pthread_cond_timedwait(&m_cond,mutex,t);
+        res = pthread_cond_timedwait(&m_cond,mutex,&t);
         //pthread_mutex_unlock(mutex);
         return res == 0;
     }
