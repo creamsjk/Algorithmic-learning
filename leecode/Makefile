@@ -1,12 +1,12 @@
-Srcs := $(wildcard *.c)
-Outs := $(patsubst %.c, %, $(Srcs))
+Srcs := $(wildcard *.cpp)
+Outs := $(patsubst %.cpp, %, $(Srcs))
 
 CC := g++
 CFLAGS = -Wall -g
 
 ALL: $(Outs) 
 
-%: %.c
+%: %.cpp
 	$(CC) $< -o $@ $(CFLAGS)
 
 .PHONY: clean rebuild ALL
