@@ -1,0 +1,2 @@
+g++ -o main ./log/log.h ./lock/locker.h ./log/block_queue.h ./log/log.cpp  testMysql.cpp ./CGlmysql/sql_connection_pool.cpp ./CGlmysql/sql_connection_pool.h  -pthread  -lmysqlclient
+
