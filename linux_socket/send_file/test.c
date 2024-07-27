@@ -6,6 +6,11 @@
  ************************************************************************/
 
 #include"tool.h"
+int pipefd[2];
+void sigFunc(int signum){
+    printf("signum = %d\n",signum);
+    write(pipefd[1],"1",1);
+}
 
 int main(int argc, char* argv[]){
     
@@ -16,10 +21,11 @@ int main(int argc, char* argv[]){
   }
   int number = atoi(argv[3]);
   //忽略管道信号
-  signal(SIGPIPE,SIG_IGN);
+  //  signal(SIGPIPE,SIG_IGN);
   process_child *child = (process_child*)malloc(sizeof(process_child)*number);
   //创建子进程数组
   createChild(number,child);
+  signal(SIGUSR1,sigFunc);
  
   //初始化tcp连接 监听10个
   int listenfd = tcpInit(argv[1],argv[2]);
@@ -39,6 +45,10 @@ int main(int argc, char* argv[]){
   for(int i=0;i<number;i++){
       epollReadAdd(epfd,child[i].pipfd);
   }
+  //监听退出管道
+  pipe(pipefd);
+  epollReadAdd(epfd,pipefd[0]);
+
 
   while(1){
       //等待事件发生
@@ -63,10 +73,25 @@ int main(int argc, char* argv[]){
              }
              //主进程中关闭这个文件描述符
              close(client); 
+         }else if(ev[i].data.fd == pipefd[0]){//推出进程池
+             //int howmany =0;
+             // read(ev[i].data.fd, &howmany, sizeof(howmany));
+
+             for(int j=0;j<number;j++){
+                 kill(child[j].pid,SIGINT);
+                 puts("send signal to worker!");
+             }
+
+             for(int j=0;j<number;j++){
+                 wait(NULL);
+             }
+             printf("Parent process exit! \n");
+             exit(0);
+
          }
          else{//管道发生事件 子进程操作完毕了
-             //char buff[32]={0};
-             //read(ev[i].data.fd,buff,sizeof(buff));
+             //int howmany =0;
+             //read(ev[i].data.fd, &howmany, sizeof(howmany)); 
              for(int j=0;j<number;j++){
                  if(ev[i].data.fd == child[j].pipfd){
                      printf("child is not busy : %d \n",child[j].pid);

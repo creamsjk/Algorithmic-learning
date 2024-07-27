@@ -22,6 +22,7 @@
 #include<string.h>
 #include<errno.h>
 #include<error.h>
+#include<sys/wait.h>
 
 int work(int pipefd);
 int transfer(int fd );
@@ -169,8 +170,8 @@ int work(int pipefd ){
         printf("child %d send finish.\n", getpid());
 
         close(fd);
-         int one = 1;
-        write(pipefd, &one, sizeof(one));
+        // int one = 1;
+       // write(pipefd, &one, sizeof(one));
     }
 }
 
@@ -224,7 +225,7 @@ int epollReadDel(int epfd, int fd){
 int transfer(int fd){
     //读取数据发送到客户端 fd 是客户端文件描述符
     
-    char* filename = "asd";
+    char* filename = "qwe.txt";
     int rfd = open(filename,O_RDONLY);
     ERROR_CHECK(rfd,-1,"open failed ");
 
