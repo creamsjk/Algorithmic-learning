@@ -25,7 +25,7 @@ Log::~Log(){
     }
 }
 
-bool Log::init(const char* file_name, int log_buf_size, int split_lines,int max_queue_size){
+bool Log::init(const char* file_name, int close_log,  int log_buf_size, int split_lines,int max_queue_size){
    
     //max_queue_size >=1 说明使用异步来写日志
     if(max_queue_size >= 1){
@@ -39,6 +39,7 @@ bool Log::init(const char* file_name, int log_buf_size, int split_lines,int max_
     }
 
     //初始化缓冲区和日志最大行数
+    m_close_log = close_log;
     m_log_buf_size = log_buf_size;
     m_buf = new char[log_buf_size];
     memset(m_buf,'\0',m_log_buf_size);

@@ -1,0 +1,453 @@
+2024-08-02 22:56:26.814453 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:26.814549 [info]: adjust timer once
+2024-08-02 22:56:26.814616 [info]: GET / HTTP/1.1
+2024-08-02 22:56:26.814628 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:26.814631 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:26.814633 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:26.814635 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:26.814637 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:26.814639 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:26.814641 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:26.814643 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:26.814644 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:26.814646 [info]: Connection: keep-alive
+2024-08-02 22:56:26.814648 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:26.814650 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:26.814652 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:26.814654 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:26.814656 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:26.814657 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:26.814659 [info]: Sec-Fetch-Site: cross-site
+2024-08-02 22:56:26.814661 [info]: oop!unknow header: Sec-Fetch-Site: cross-site
+2024-08-02 22:56:26.814663 [info]: 
+2024-08-02 22:56:26.814689 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:26.814693 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2024-08-02 22:56:26.814695 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2024-08-02 22:56:26.814697 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2024-08-02 22:56:26.815453 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:26.815488 [info]: adjust timer once
+2024-08-02 22:56:27.422381 [info]: timer tick
+2024-08-02 22:56:27.919533 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:27.919567 [info]: adjust timer once
+2024-08-02 22:56:27.919612 [info]: GET / HTTP/1.1
+2024-08-02 22:56:27.919623 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:27.919626 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:27.919628 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:27.919630 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:27.919632 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:27.919634 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:27.919635 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:27.919637 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:27.919639 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:27.919641 [info]: Connection: keep-alive
+2024-08-02 22:56:27.919643 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:27.919645 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:27.919647 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:27.919648 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:27.919650 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:27.919652 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:27.919654 [info]: Sec-Fetch-Site: cross-site
+2024-08-02 22:56:27.919656 [info]: oop!unknow header: Sec-Fetch-Site: cross-site
+2024-08-02 22:56:27.919699 [info]: 
+2024-08-02 22:56:27.919719 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:27.919723 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2024-08-02 22:56:27.919725 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2024-08-02 22:56:27.919727 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2024-08-02 22:56:27.919841 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:27.919849 [info]: adjust timer once
+2024-08-02 22:56:28.638374 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:28.638423 [info]: adjust timer once
+2024-08-02 22:56:28.638469 [info]: GET / HTTP/1.1
+2024-08-02 22:56:28.638479 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:28.638481 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:28.638483 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:28.638486 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:28.638487 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:28.638489 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:28.638491 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:28.638493 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:28.638495 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:28.638497 [info]: Connection: keep-alive
+2024-08-02 22:56:28.638499 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:28.638500 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:28.638502 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:28.638504 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:28.638506 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:28.638508 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:28.638509 [info]: Sec-Fetch-Site: cross-site
+2024-08-02 22:56:28.638512 [info]: oop!unknow header: Sec-Fetch-Site: cross-site
+2024-08-02 22:56:28.638513 [info]: 
+2024-08-02 22:56:28.638527 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:28.638535 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2024-08-02 22:56:28.638537 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2024-08-02 22:56:28.638539 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2024-08-02 22:56:28.638619 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:28.638627 [info]: adjust timer once
+2024-08-02 22:56:29.276924 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:29.276968 [info]: adjust timer once
+2024-08-02 22:56:29.277053 [info]: POST /0 HTTP/1.1
+2024-08-02 22:56:29.277063 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:29.277066 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:29.277068 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:29.277070 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:29.277072 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:29.277074 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:29.277076 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:29.277078 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:29.277080 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:29.277082 [info]: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:29.277113 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:29.277116 [info]: Content-Length: 0
+2024-08-02 22:56:29.277118 [info]: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:29.277119 [info]: oop!unknow header: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:29.277121 [info]: Connection: keep-alive
+2024-08-02 22:56:29.277123 [info]: Referer: http://127.0.0.1:9006/
+2024-08-02 22:56:29.277125 [info]: oop!unknow header: Referer: http://127.0.0.1:9006/
+2024-08-02 22:56:29.277127 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:29.277129 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:29.277130 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:29.277132 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:29.277134 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:29.277135 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:29.277137 [info]: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:29.277139 [info]: oop!unknow header: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:29.277141 [info]: Sec-Fetch-User: ?1
+2024-08-02 22:56:29.277142 [info]: oop!unknow header: Sec-Fetch-User: ?1
+2024-08-02 22:56:29.277144 [info]: 
+2024-08-02 22:56:29.277164 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:29.277169 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+
+2024-08-02 22:56:29.277171 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+2024-08-02 22:56:29.277173 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+
+2024-08-02 22:56:29.277247 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:29.277254 [info]: adjust timer once
+2024-08-02 22:56:32.422867 [info]: timer tick
+2024-08-02 22:56:36.805000 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:36.805044 [info]: adjust timer once
+2024-08-02 22:56:36.805089 [info]: POST /1 HTTP/1.1
+2024-08-02 22:56:36.805100 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:36.805103 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:36.805105 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:36.805107 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:36.805109 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:36.805111 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:36.805112 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:36.805114 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:36.805116 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:36.805118 [info]: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:36.805120 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:36.805122 [info]: Content-Length: 0
+2024-08-02 22:56:36.805124 [info]: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:36.805126 [info]: oop!unknow header: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:36.805128 [info]: Connection: keep-alive
+2024-08-02 22:56:36.805130 [info]: Referer: http://127.0.0.1:9006/
+2024-08-02 22:56:36.805131 [info]: oop!unknow header: Referer: http://127.0.0.1:9006/
+2024-08-02 22:56:36.805133 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:36.805135 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:36.805137 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:36.805138 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:36.805140 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:36.805142 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:36.805144 [info]: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:36.805145 [info]: oop!unknow header: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:36.805195 [info]: Sec-Fetch-User: ?1
+2024-08-02 22:56:36.805199 [info]: oop!unknow header: Sec-Fetch-User: ?1
+2024-08-02 22:56:36.805201 [info]: 
+2024-08-02 22:56:36.805225 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:36.805229 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+
+2024-08-02 22:56:36.805231 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+2024-08-02 22:56:36.805233 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+
+2024-08-02 22:56:36.805407 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:36.805416 [info]: adjust timer once
+2024-08-02 22:56:37.423519 [info]: timer tick
+2024-08-02 22:56:42.423637 [info]: timer tick
+2024-08-02 22:56:44.634235 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:44.634296 [info]: adjust timer once
+2024-08-02 22:56:44.634344 [info]: POST /2CGISQL.cgi HTTP/1.1
+2024-08-02 22:56:44.634355 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:44.634357 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:44.634360 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:44.634362 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:44.634364 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:44.634365 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:44.634367 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:44.634369 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:44.634371 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:44.634373 [info]: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:44.634375 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:44.634376 [info]: Content-Length: 24
+2024-08-02 22:56:44.634379 [info]: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:44.634380 [info]: oop!unknow header: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:44.634382 [info]: Connection: keep-alive
+2024-08-02 22:56:44.634384 [info]: Referer: http://127.0.0.1:9006/1
+2024-08-02 22:56:44.634386 [info]: oop!unknow header: Referer: http://127.0.0.1:9006/1
+2024-08-02 22:56:44.634388 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:44.634389 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:44.634391 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:44.634393 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:44.634395 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:44.634396 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:44.634398 [info]: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:44.634400 [info]: oop!unknow header: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:44.634402 [info]: Sec-Fetch-User: ?1
+2024-08-02 22:56:44.634403 [info]: oop!unknow header: Sec-Fetch-User: ?1
+2024-08-02 22:56:44.634405 [info]: 
+2024-08-02 22:56:44.634407 [info]: user=root&password=12345
+2024-08-02 22:56:44.634434 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:44.634439 [info]: request:HTTP/1.1 200 OK
+Content-Length:821
+
+2024-08-02 22:56:44.634441 [info]: request:HTTP/1.1 200 OK
+Content-Length:821
+Connection:keep-alive
+
+2024-08-02 22:56:44.634443 [info]: request:HTTP/1.1 200 OK
+Content-Length:821
+Connection:keep-alive
+
+
+2024-08-02 22:56:44.634511 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:44.634517 [info]: adjust timer once
+2024-08-02 22:56:47.425988 [info]: timer tick
+2024-08-02 22:56:51.788096 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:51.788130 [info]: adjust timer once
+2024-08-02 22:56:51.788163 [info]: POST /2CGISQL.cgi HTTP/1.1
+2024-08-02 22:56:51.788173 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:51.788211 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:51.788213 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:51.788215 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:51.788217 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:51.788219 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:51.788221 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:51.788223 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:51.788225 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:51.788227 [info]: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:51.788229 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:51.788230 [info]: Content-Length: 25
+2024-08-02 22:56:51.788233 [info]: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:51.788234 [info]: oop!unknow header: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:51.788236 [info]: Connection: keep-alive
+2024-08-02 22:56:51.788238 [info]: Referer: http://127.0.0.1:9006/2CGISQL.cgi
+2024-08-02 22:56:51.788240 [info]: oop!unknow header: Referer: http://127.0.0.1:9006/2CGISQL.cgi
+2024-08-02 22:56:51.788242 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:51.788243 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:51.788245 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:51.788247 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:51.788249 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:51.788250 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:51.788252 [info]: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:51.788254 [info]: oop!unknow header: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:51.788256 [info]: Sec-Fetch-User: ?1
+2024-08-02 22:56:51.788257 [info]: oop!unknow header: Sec-Fetch-User: ?1
+2024-08-02 22:56:51.788259 [info]: 
+2024-08-02 22:56:51.788261 [info]: user=root&password=123456
+2024-08-02 22:56:51.788283 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:51.788287 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+
+2024-08-02 22:56:51.788289 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+Connection:keep-alive
+
+2024-08-02 22:56:51.788291 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+Connection:keep-alive
+
+
+2024-08-02 22:56:51.788406 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:51.788419 [info]: adjust timer once
+2024-08-02 22:56:52.426676 [info]: timer tick
+2024-08-02 22:56:53.509009 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:53.509067 [info]: adjust timer once
+2024-08-02 22:56:53.509154 [info]: POST /6 HTTP/1.1
+2024-08-02 22:56:53.509164 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:53.509167 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:53.509169 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:53.509171 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:53.509173 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 22:56:53.509175 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:53.509177 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:53.509178 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:53.509180 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 22:56:53.509209 [info]: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:53.509211 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-08-02 22:56:53.509212 [info]: Content-Length: 0
+2024-08-02 22:56:53.509215 [info]: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:53.509216 [info]: oop!unknow header: Origin: http://127.0.0.1:9006
+2024-08-02 22:56:53.509218 [info]: Connection: keep-alive
+2024-08-02 22:56:53.509220 [info]: Referer: http://127.0.0.1:9006/2CGISQL.cgi
+2024-08-02 22:56:53.509222 [info]: oop!unknow header: Referer: http://127.0.0.1:9006/2CGISQL.cgi
+2024-08-02 22:56:53.509224 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:53.509226 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 22:56:53.509227 [info]: Sec-Fetch-Dest: document
+2024-08-02 22:56:53.509229 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 22:56:53.509231 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:53.509233 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 22:56:53.509234 [info]: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:53.509236 [info]: oop!unknow header: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:53.509238 [info]: Sec-Fetch-User: ?1
+2024-08-02 22:56:53.509239 [info]: oop!unknow header: Sec-Fetch-User: ?1
+2024-08-02 22:56:53.509241 [info]: 
+2024-08-02 22:56:53.509260 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:53.509265 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+
+2024-08-02 22:56:53.509267 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+Connection:keep-alive
+
+2024-08-02 22:56:53.509268 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+Connection:keep-alive
+
+
+2024-08-02 22:56:53.509340 [info]: send data to the client(127.0.0.1)
+2024-08-02 22:56:53.509347 [info]: adjust timer once
+2024-08-02 22:56:53.641660 [info]: deal with the client(127.0.0.1)
+2024-08-02 22:56:53.641719 [info]: adjust timer once
+2024-08-02 22:56:53.641749 [info]: GET /xxx.mp4 HTTP/1.1
+2024-08-02 22:56:53.641761 [info]: Host: 127.0.0.1:9006
+2024-08-02 22:56:53.641764 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:53.641766 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 22:56:53.641768 [info]: Accept: video/webm,video/ogg,video/*;q=0.9,application/ogg;q=0.7,audio/*;q=0.6,*/*;q=0.5
+2024-08-02 22:56:53.641770 [info]: oop!unknow header: Accept: video/webm,video/ogg,video/*;q=0.9,application/ogg;q=0.7,audio/*;q=0.6,*/*;q=0.5
+2024-08-02 22:56:53.641772 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:53.641773 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 22:56:53.641775 [info]: Range: bytes=0-
+2024-08-02 22:56:53.641777 [info]: oop!unknow header: Range: bytes=0-
+2024-08-02 22:56:53.641779 [info]: Connection: keep-alive
+2024-08-02 22:56:53.641781 [info]: Referer: http://127.0.0.1:9006/6
+2024-08-02 22:56:53.641783 [info]: oop!unknow header: Referer: http://127.0.0.1:9006/6
+2024-08-02 22:56:53.641784 [info]: Sec-Fetch-Dest: video
+2024-08-02 22:56:53.641786 [info]: oop!unknow header: Sec-Fetch-Dest: video
+2024-08-02 22:56:53.641788 [info]: Sec-Fetch-Mode: no-cors
+2024-08-02 22:56:53.641790 [info]: oop!unknow header: Sec-Fetch-Mode: no-cors
+2024-08-02 22:56:53.641792 [info]: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:53.641794 [info]: oop!unknow header: Sec-Fetch-Site: same-origin
+2024-08-02 22:56:53.641796 [info]: Accept-Encoding: identity
+2024-08-02 22:56:53.641797 [info]: oop!unknow header: Accept-Encoding: identity
+2024-08-02 22:56:53.641799 [info]: 
+2024-08-02 22:56:53.641832 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 22:56:53.641834 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+
+2024-08-02 22:56:53.641836 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+Connection:keep-alive
+
+2024-08-02 22:56:53.641838 [info]: request:HTTP/1.1 200 2024-08-02 23:00:06.521689 [info]: timer tick
+2024-08-02 23:00:11.522585 [info]: timer tick
+2024-08-02 23:00:16.522879 [info]: timer tick
+2024-08-02 23:00:21.523321 [info]: timer tick
+2024-08-02 23:00:25.681622 [info]: deal with the client(127.0.0.1)
+2024-08-02 23:00:25.681663 [info]: adjust timer once
+2024-08-02 23:00:25.681763 [info]: GET / HTTP/1.1
+2024-08-02 23:00:25.681774 [info]: Host: 127.0.0.1:9999
+2024-08-02 23:00:25.681777 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 23:00:25.681779 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 23:00:25.681781 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 23:00:25.681783 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2024-08-02 23:00:25.681785 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 23:00:25.681787 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 23:00:25.681789 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 23:00:25.681791 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 23:00:25.681792 [info]: Connection: keep-alive
+2024-08-02 23:00:25.681794 [info]: Upgrade-Insecure-Requests: 1
+2024-08-02 23:00:25.681796 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-08-02 23:00:25.681798 [info]: Sec-Fetch-Dest: document
+2024-08-02 23:00:25.681800 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2024-08-02 23:00:25.681802 [info]: Sec-Fetch-Mode: navigate
+2024-08-02 23:00:25.681804 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2024-08-02 23:00:25.681805 [info]: Sec-Fetch-Site: none
+2024-08-02 23:00:25.681807 [info]: oop!unknow header: Sec-Fetch-Site: none
+2024-08-02 23:00:25.681809 [info]: Sec-Fetch-User: ?1
+2024-08-02 23:00:25.681811 [info]: oop!unknow header: Sec-Fetch-User: ?1
+2024-08-02 23:00:25.681812 [info]: 
+2024-08-02 23:00:25.681833 [info]: request:HTTP/1.1 200 OK
+
+2024-08-02 23:00:25.681838 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2024-08-02 23:00:25.681840 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2024-08-02 23:00:25.681842 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2024-08-02 23:00:25.681927 [info]: send data to the client(127.0.0.1)
+2024-08-02 23:00:25.681932 [info]: adjust timer once
+2024-08-02 23:00:25.787851 [info]: deal with the client(127.0.0.1)
+2024-08-02 23:00:25.787890 [info]: adjust timer once
+2024-08-02 23:00:25.787937 [info]: GET /favicon.ico HTTP/1.1
+2024-08-02 23:00:25.787949 [info]: Host: 127.0.0.1:9999
+2024-08-02 23:00:25.787952 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 23:00:25.787954 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+2024-08-02 23:00:25.787956 [info]: Accept: image/avif,image/webp,*/*
+2024-08-02 23:00:25.787958 [info]: oop!unknow header: Accept: image/avif,image/webp,*/*
+2024-08-02 23:00:25.787960 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 23:00:25.787962 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2024-08-02 23:00:25.787964 [info]: Accept-Encoding: gzip, deflate, br
+2024-08-02 23:00:25.787966 [info]: oop!unknow header: Accept-Encoding: gzip, deflate, br
+2024-08-02 23:00:25.787968 [info]: Connection: keep-alive
+2024-08-02 23:00:25.787970 [info]: Referer: http://127.0.0.1:9999/
+2024-08-02 23:00:25.787972 [info]: oop!unknow header: Referer: http://127.0.0.1:9999/
+2024-08-02 23:00:25.787974 [info]: Sec-Fetch-Dest: image
+2024-08-02 23:00:25.787975 [info]: oop!unknow header: Sec-Fetch-Dest: image
+2024-08-02 23:00:25.787977 [info]: Sec-Fetch-Mode: no-cors
+2024-08-02 23:
