@@ -2,7 +2,7 @@ Srcs := $(wildcard *.cpp)
 Outs := $(patsubst %.cpp, %, $(Srcs))
 
 CC := g++
-CFLAGS = -Wall -g
+CFLAGS = -Wall -g -w
 
 ALL: $(Outs) 
 
