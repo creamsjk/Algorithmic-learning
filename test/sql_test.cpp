@@ -17,8 +17,15 @@ int main(){
     MYSQL *qqq; 
 
     qqq = mysql_init(NULL);
-     qqq = mysql_real_connect(qqq, "118.25.193.224","root","104962dec5f28b2e","sjk",3306,NULL,0); 
-     char buff[] = "select * from qqqqq;";
+  qqq = mysql_real_connect(qqq, "118.25.193.224","root","104962dec5f28b2e","sjk",3306,NULL,0); 
+  //  qqq = mysql_real_connect(qqq, "localhost","root","root","yourdb",3306,NULL,0); 
+
+     if(qqq == NULL){
+         printf("failed  %s\n",mysql_error(qqq));
+         return 0;
+     }
+   
+     char buff[] = "select * from user;";
       mysql_query(qqq,buff);
   
     MYSQL_RES * result = mysql_store_result(qqq);

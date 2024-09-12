@@ -78,11 +78,21 @@ int main()
      strcpy(name1,"sunrise");
 
      printf("name == %s \n",name);
-     int wfd = open(name1,O_RDWR | O_CREAT, 0664);
+     int wfd = open(name1,O_RDWR | O_CREAT | O_APPEND, 0664);
+
      if(wfd == -1){
          printf("open failed \n");
          exit(1);
      }
+     //发送文件偏移位置  对面也偏移相同位置  发送一个long
+     
+     int file_len = lseek(wfd, 0, SEEK_END);
+     send(clientfd, &file_len, sizeof(file_len), 0);
+     int cur_len =  lseek(wfd, 0, SEEK_CUR);
+     printf("file_len == %d  cur_len == %d   \n", file_len, cur_len);
+     
+     //  while(1);
+    
      //开始写文件
       
      int total =-1;

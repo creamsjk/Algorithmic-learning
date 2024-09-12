@@ -140,7 +140,8 @@ int createChild(int number,process_child *child){
         if(pid == 0){
             close(pipes[1]);
             work(pipes[0]);
-            exit(0);
+           // exit(0);
+           return 0;
         }
         close(pipes[0]);
         child[i].pid = pid;
